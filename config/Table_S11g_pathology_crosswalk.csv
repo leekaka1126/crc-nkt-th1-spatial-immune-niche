@@ -1,0 +1,40 @@
+original_label,primary_class,reason_group
+"",other,missing_annotation
+connective tissue_1_edema,other,nonneoplastic_connective_tissue
+connective tissue_2_fibroblastic_IC low,other,nonneoplastic_connective_tissue
+connective tissue_3_fibroblastic_IC med,other,nonneoplastic_connective_tissue
+connective tissue_4_muscularis_IC low,other,nonneoplastic_connective_tissue
+connective tissue_6_hemosiderin?,other,nonneoplastic_connective_tissue
+epitehlium&submucosa,other,nonneoplastic_or_ambiguous
+epithelium&lam propria,other,nonneoplastic_or_ambiguous
+epithelium&submucosa,other,nonneoplastic_or_ambiguous
+exclude,other,source_exclusion
+glandular tissue,other,ambiguous_non_tumor_specific
+IC aggragate_stroma or muscularis,other,immune_aggregate_ambiguous_site
+IC aggreagate_connective tissue,other,immune_aggregate_ambiguous_site
+IC aggreates_stroma or muscularis,other,immune_aggregate_ambiguous_site
+IC aggregate connective tissue,other,immune_aggregate_ambiguous_site
+IC aggregate submucosa,other,immune_aggregate_ambiguous_site
+IC aggregate_muscularis or stroma,other,immune_aggregate_ambiguous_site
+IC aggregate_stroma or muscularis,other,immune_aggregate_ambiguous_site
+IC aggregate_submucosa,other,immune_aggregate_ambiguous_site
+IC aggregregate_submucosa,other,immune_aggregate_ambiguous_site
+lamina propria,other,nonneoplastic_or_ambiguous
+muscularis_IC med to high,other,nonneoplastic_or_ambiguous
+non neo epithelium,other,nonneoplastic_epithelium
+squamous epithelium,other,nonneoplastic_epithelium
+stroma desmoplastic_IC low,stroma,pure_stroma
+stroma desmoplastic_IC med to high,stroma,pure_stroma
+stroma_desmoplastic_IC low,stroma,pure_stroma
+stroma_desmoplastic_IC med to high,stroma,pure_stroma
+stroma_fibroblastic_IC high,stroma,pure_stroma
+stroma_fibroblastic_IC low,stroma,pure_stroma
+stroma_fibroblastic_IC med,stroma,pure_stroma
+stroma_fibroblastic_IC_high,stroma,pure_stroma
+stroma_fibroblastic_IC_med,stroma,pure_stroma
+submucosa,other,nonneoplastic_or_ambiguous
+tumor,tumor,pure_tumor
+tumor&stroma,other,mixed_tumor_stroma
+tumor&stroma IC med to high,other,mixed_tumor_stroma
+tumor&stroma_IC low,other,mixed_tumor_stroma
+tumor&stroma_IC med to high,other,mixed_tumor_stroma

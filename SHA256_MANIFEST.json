@@ -1,0 +1,124 @@
+{
+  "file_count": 29,
+  "files": {
+    ".gitignore": {
+      "bytes": 49,
+      "sha256": "671ada931dc87303e922ce9e436923b1d75a6a09363a4a22adedbf18d5450b27"
+    },
+    "CITATION.cff": {
+      "bytes": 348,
+      "sha256": "ad8a1aa6ee69dc68e41f055ca2710f282572f6608de91dcbf5f39d113d85af24"
+    },
+    "LICENSE": {
+      "bytes": 1084,
+      "sha256": "02eb29617fbd7103bec928c7ee5a00b90a091dd90057514d98bb4817add4b07e"
+    },
+    "README.md": {
+      "bytes": 8349,
+      "sha256": "f706f8bc36ac84b72ae98c29059c30f98f1bd64d4e49de33e4f06beb8dce9412"
+    },
+    "VALIDATION.md": {
+      "bytes": 4659,
+      "sha256": "89a9cd9e40467e1e47fb29f173d6fc42aa866f08657722601486aba463a68636"
+    },
+    "config/GSE294385_37_section_manifest.csv": {
+      "bytes": 8621,
+      "sha256": "e095238b74404f5e2e18c5e0c47887c7997ac361c70489ae0dcb3a4cb09eed67"
+    },
+    "config/Table_S11g_pathology_crosswalk.csv": {
+      "bytes": 2192,
+      "sha256": "d0daec74dc27d038d8a370107f936dc87e51644605ae01906efcd58b0841c626"
+    },
+    "config/public_input_sha256.json": {
+      "bytes": 5765,
+      "sha256": "a6223c0bf6aa2850a97ddc8fc4e350eaac1c28643bc710f8dc1886941605b32e"
+    },
+    "config/valdeolivas_12_sections.txt": {
+      "bytes": 276,
+      "sha256": "76d59b05096b8a7a9fc9b847e10246e797b704155282a155dd1fb6948fb2f57f"
+    },
+    "manuscript/CRC_NKT_v11_1/code_release/scripts/05_spatial_neighborhood_analysis.py": {
+      "bytes": 19329,
+      "sha256": "0cbdebffb6bd63b12e962e1863a91807b73eccf7e9373bfa33dc25587d200a65"
+    },
+    "protocol/CRC_Valdeolivas_external_spatial_gate_2026-10-08.md": {
+      "bytes": 8402,
+      "sha256": "d588cd32d25aa89906980e48a6b83f3240d8229ea095fe079ce87ec429172c9b"
+    },
+    "protocol/CRC_Valdeolivas_final_analysis_lock_2026-10-08.md": {
+      "bytes": 6466,
+      "sha256": "12c4b3db5fd6ddabdb44b31dcbb70430b9fee2e9cf485edbdef8dd7591b93ef8"
+    },
+    "requirements-lock-win-py314.txt": {
+      "bytes": 410,
+      "sha256": "5dacb38387a90fb343cbaa0a0b6516d504f476771ae1ea0af3227c9bfb28d1dd"
+    },
+    "requirements.txt": {
+      "bytes": 88,
+      "sha256": "94195aa4e4118b21a49a7684be590f4f5a8b23576873ac4668e6d0e6215c6f76"
+    },
+    "run_from_public.py": {
+      "bytes": 14814,
+      "sha256": "64c625d313237e19743314943b74f3a8f75f10f7b29cbd14c77e279eba55daf5"
+    },
+    "scripts/audit_v11_8_full_edge_selection.py": {
+      "bytes": 18800,
+      "sha256": "a413b88897c1c46d83129dcaaf145071e239975e223acb4b2fa8ab14224fbfe6"
+    },
+    "scripts/audit_valdeolivas_spot_joins.py": {
+      "bytes": 15295,
+      "sha256": "3e6f304b048f32862555cdb0109368a65f5d77bacb5c92ba20f60374b8b90f09"
+    },
+    "scripts/build_crc_v11_10_R2k_S14_support_rollup.py": {
+      "bytes": 13784,
+      "sha256": "43ef5b750dc11e97f8b1b3caad810a215b22fa1a965897353c8b4d36794d693d"
+    },
+    "scripts/build_v11_10_revision1_pair_ledger.py": {
+      "bytes": 11424,
+      "sha256": "7af46cd4219cb46f3fd95c57f8ca96ff5552947a26a6d7657158de097e8d6243"
+    },
+    "scripts/check_crc_R2k4_patient_estimand_independent.py": {
+      "bytes": 13960,
+      "sha256": "67e0714cccf59c07bc1f754c86671602d8b5cbe46611eb7df622b44054f7c894"
+    },
+    "scripts/gse294385_full_spatial.py": {
+      "bytes": 13240,
+      "sha256": "b37a2d43d8b9a5a03983fae31a3ceae14ec5310af2dd6ae8ecebf458ef30b624"
+    },
+    "scripts/gse294385_spatial_autocorr_audit.py": {
+      "bytes": 19196,
+      "sha256": "08cd2fb20318bda170dd6e3c519d4b7ba83ac7158c4ac80e40a8cefc7e52cc2d"
+    },
+    "scripts/make_v11_10_edge_selection_figure.py": {
+      "bytes": 11380,
+      "sha256": "33f3cadda230452639ad822393132a716b993a55969223128fc19e60c95f2bb7"
+    },
+    "scripts/plot_valdeolivas_patient_effects.py": {
+      "bytes": 3485,
+      "sha256": "c227ced775f6619f2e6f9b002e64d6e06285c64c04eb7d3f777eef288c39924b"
+    },
+    "scripts/run_valdeolivas_pathology_matched_replication.py": {
+      "bytes": 20664,
+      "sha256": "c1b23ec51b16f74dca4399ac6fde9ccad516192b9cce9e13cfd0fe9a945f5232"
+    },
+    "scripts/summarize_v11_8_full_edge_selection.py": {
+      "bytes": 12738,
+      "sha256": "91fb0039432635552d88de8daf5e28cdfd7586715c15845179a9eed8afa4ba73"
+    },
+    "tests/test_crc_R2k4_patient_estimand_independent.py": {
+      "bytes": 1725,
+      "sha256": "b72a06d33ae15bf3f2bf402d9e46c1074e5b3359e7ec39516d87f78e33b3e47b"
+    },
+    "tests/test_frozen_contract.py": {
+      "bytes": 2244,
+      "sha256": "dd39ceacc1ad6375dfc2c289adfcdbb4b3b00b2aac082eca3e22d74590570c2a"
+    },
+    "verify_release.py": {
+      "bytes": 1423,
+      "sha256": "1f6ce3457c20243e2ace65f3e1910d09bd1921fac81364d58714a97fc951ea83"
+    }
+  },
+  "hash_algorithm": "SHA-256",
+  "release": "11.10.0-rc7",
+  "total_bytes": 240210
+}

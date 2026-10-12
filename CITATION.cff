@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this version and the associated article when available."
+title: "CRC immune-stromal spatial analysis: public-input reproduction code"
+type: software
+version: "11.10.0-rc7"
+authors:
+  - family-names: Hao
+    given-names: Jiaozhen
+  - family-names: Li
+    given-names: Minghui
+license: MIT
