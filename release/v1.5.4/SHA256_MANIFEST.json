@@ -1,0 +1,20 @@
+{
+  "release": "v1.5.4",
+  "prepared_on": "2026-10-27",
+  "status": "prepared_upload_set_not_yet_public",
+  "license_code": "MIT",
+  "license_derived_outputs": "CC BY 4.0",
+  "files": [
+    {"path": "Additional_file_2_R10_V5_S23_CANDIDATE.zip", "bytes": 2911044, "sha256": "4BBDCA48826C765FB6999A13F5D529BB8F0B802C8F6CA9E201456F561B731AB5"},
+    {"path": "Additional_file_4_code_release_v1.5.4.zip", "bytes": 11944537, "sha256": "5C4BF1BB5E6F8FF810EB8E877A30BFCCF1D8A2BE9C052E26082E4CE9D4428F56"},
+    {"path": "LICENSE_DATA.md", "bytes": 635, "sha256": "F6F006AF97FAE2B2BECFA714010CD61F57D0A8436340AA0EA6FC8DE4C1D2727D"},
+    {"path": "README.md", "bytes": 2242, "sha256": "C90E01143DDD30E9BB9E24E49C1DBC891ED2102C7C268C37969996A2E8E3ED6B"},
+    {"path": "UPLOAD_INSTRUCTIONS.md", "bytes": 767, "sha256": "EDD5171F4065D1CB3A59117484E5F785523C06DD689B179B1B56F09EE7B039FC"},
+    {"path": "derived_tables/Table_S14f_pathology_pair_support.csv", "bytes": 540, "sha256": "BAD2FEA71EFA8EF1530D82A2853FEEEAFDD415E2A882043AB34862F6CCB403BF"},
+    {"path": "derived_tables/Table_S17a_U2_scenario_summary.csv", "bytes": 18675, "sha256": "31CA2FB469EA539C7C5F20426261DCB03A8B60C44CDC6BF9A94BB59FF576B1C9"},
+    {"path": "derived_tables/Table_S17b_U2_sample_size_summary.csv", "bytes": 721, "sha256": "4CBC7CAA4F5F5D84A742F3C782B55D2A14F1F3CF3BCE97E35853F9099C958714"},
+    {"path": "derived_tables/Table_S19b_pair_threshold_support_by_cohort.csv", "bytes": 3439, "sha256": "451479502CE0CCF32A2F42DE16A264985BA60727FC813C93D6FC4167FB1DF624"},
+    {"path": "derived_tables/Table_S20a_unique_spot_support_by_offset_pair_group.csv", "bytes": 1823430, "sha256": "0AC6C7A55C0C033FE5A9090739CD8ED23D824BEB34DA435316CBCC3D40288FC3"},
+    {"path": "derived_tables/Table_S20b_unique_spot_support_by_patient.csv", "bytes": 5961, "sha256": "84E46CF9A0931C8E09AE43899D8E9E7D1082160EBB7A27CACA1EE2F9172504D1"}
+  ]
+}
