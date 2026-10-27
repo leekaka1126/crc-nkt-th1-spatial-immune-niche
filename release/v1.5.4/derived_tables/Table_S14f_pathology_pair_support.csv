@@ -1,0 +1,9 @@
+dataset,pathology_pair,accepted_shift_section_n,qualified_shift_section_n,qualified_patient_n,qualified_fraction
+GSE294385,tumor->tumor,672,650,5,0.9672619047619048
+GSE294385,tumor->stroma,672,573,5,0.8526785714285714
+GSE294385,stroma->tumor,672,671,5,0.9985119047619048
+GSE294385,stroma->stroma,672,616,5,0.9166666666666666
+Valdeolivas_2024,tumor->tumor,723,410,5,0.5670816044260027
+Valdeolivas_2024,tumor->stroma,723,0,0,0.0
+Valdeolivas_2024,stroma->tumor,723,0,0,0.0
+Valdeolivas_2024,stroma->stroma,723,501,5,0.6929460580912863
