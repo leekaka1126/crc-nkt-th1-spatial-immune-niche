@@ -1,8 +1,32 @@
-# CRC immune–stromal spatial analysis — frozen code candidate 11.10.0-rc7
+# CRC immune–stromal spatial analysis — E4 spatial core and release artifacts (v1.5.5)
+
+## Availability
+
+This repository is public. Author-owned code is MIT-licensed; author-generated derived tables and figures are CC BY 4.0 (see `LICENSE`, `LICENSE_DATA.md` and `DATA_SOURCES_AND_RIGHTS.md`). Archived releases carry a permanent DOI.
+
+- Repository: <https://github.com/leekaka1126/crc-nkt-th1-spatial-immune-niche>
+- Current release: `v1.5.5`, the tag this README is published at
+- Concept DOI covering every version of this repository: [10.5281/zenodo.23680882](https://doi.org/10.5281/zenodo.23680882); the version-specific DOI for a given release is printed on its Zenodo record
+- Superseded release: `v1.5.4`, DOI [10.5281/zenodo.23680883](https://doi.org/10.5281/zenodo.23680883)
+
+Release assets of `v1.5.5`:
+
+| Asset | Bytes | SHA-256 |
+|---|---|---|
+| `Additional_file_2_R10_V5_S23_CANDIDATE.zip` — Data S1, derived S1–S23 tables | 2,911,044 | `4bbdca48826c765fb6999a13f5d529bb8f0b802c8f6ca9e201456f561b731ab5` |
+| `Additional_file_4_code_release_v1.5.4.zip` — Data S2, U1/U2/S19/S20/S23 reproducibility package | 11,944,537 | `5c4bf1bb5e6f8ff810eb8e877a30bfccf1d8a2be9c052e26082e4ce9d4428f56` |
+| `iScience_Data_S3_G4_simulation_archive_v1.5.5.zip` — Data S3, G4 ADEMP simulation archive | 1,155,198 | `02c87e85580fff96e67c78da6b70793df7a2b4219e01e6248fefa21ecb402d8e` |
+| `SHA256_MANIFEST.json` — hashes of the three assets above | — | see the release page |
+
+Data S1 and Data S2 are byte-identical to the `v1.5.4` assets and are carried forward unchanged, so their SHA-256 values are unchanged from that release. Data S3 is new in `v1.5.5`. Data S3 is self-contained: it ships the G4 generator, the independent R oracle, the locked scenario matrices, the fixed seeds, the analysis scripts and the full cohort-level ledgers, and its unit test suite passes (46 tests) after extraction.
+
+## Scope of this README
+
+This README describes the E4 spatial core: the frozen scoring, graph, translation and 30/30 edge-selection rule, and the descriptive edge-selection audit built on it. The wider U1/U2/S19/S20/S23 reproducibility package is a separate release asset (Data S2) with its own `README.md` and `RUN_AND_VERIFY.md`; the G4 simulation archive is Data S3.
 
 This package reruns the **current frozen spatial E4 implementation** and its descriptive edge-selection support audit from public input archives, independently recalculates the patient estimand from the newly generated edge ledger, then renders spatial main Figures 2 and 3. It does not read a saved spot-score table, external QC report, section/patient effect, edge-support table, or figure. The analytic unit for the effect summary is the patient: eligible section effects are averaged within patient before the patient-equal mean and 10,000-draw percentile bootstrap (seed 42).
 
-**Status:** local, upload-ready release candidate; it is not yet publicly deposited. No repository URL, DOI, or article acceptance is asserted. The historical E4 executable recorded in the project archive has a different SHA-256 and has not been recovered; a clean rerun of this current implementation does not prove byte-identical execution of that older program. The edge-selection audit is post hoc and descriptive; it does not revise the E4 effect estimator or the original 30/30 edge threshold. The independent arithmetic check starts from the newly rebuilt edge counts; it does not independently reconstruct raw expression or the graph. The package covers this spatial core, S14b/i/p/q and Figures 2–3, not the bulk-survival meta-analysis, ICI audit, single-cell work, or every manuscript figure/supplement.
+**Status:** publicly released and archived at a permanent DOI (see Availability). This is a *current-code reconstruction*, not the unrecovered historical executable: the historical E4 program recorded in the project archive has a different SHA-256 and has not been recovered, and a clean rerun of this current implementation does not prove byte-identical execution of that older program. The edge-selection audit is post hoc and descriptive; it does not revise the E4 effect estimator or the original 30/30 edge threshold. The independent arithmetic check starts from the newly rebuilt edge counts; it does not independently reconstruct raw expression or the graph. The package covers this spatial core, S14b/i/p/q and Figures 2–3, not the bulk-survival meta-analysis, ICI audit, single-cell work, or every manuscript figure/supplement.
 
 ## Public inputs (not redistributed)
 
@@ -43,4 +67,4 @@ The output directory **must not exist**. The runner fails if required files are 
 
 The `scripts/` programs and fixed score module are the frozen current implementation. `run_from_public.py` is the path-explicit orchestration layer; it does not change the E4 score, graph, translation, 30/30 edge gate, or patient estimator. The original pre-effect gate and final analysis lock are included under `protocol/`; their recorded 2026-10-08 script/output hashes refer to the historical project layout, not to this newly parameterized release script. `SHA256_MANIFEST.json` and the companion ZIP hash identify exact released bytes. A clean-environment verification record accompanies the ZIP; check its status rather than assuming success from source availability alone.
 
-To verify package contents, compare every file in `SHA256_MANIFEST.json` with its local SHA-256. To rerun, use a fresh output directory. An immutable public URL or DOI should be added to the manuscript only after the authors actually deposit this exact ZIP and verify the repository metadata. Cite GEO GSE294385 and Zenodo 7760264 for data provenance as well as the eventual article.
+To verify package contents, compare every file in `SHA256_MANIFEST.json` with its local SHA-256. To rerun, use a fresh output directory. Cite GEO GSE294385 and Zenodo 7760264 for data provenance, and this repository together with its archived DOI for the code.
