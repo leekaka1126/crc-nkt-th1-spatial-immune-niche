@@ -2,10 +2,22 @@ cff-version: 1.2.0
 message: "If you use this software, cite this version and the associated article when available."
 title: "CRC immune-stromal spatial analysis: public-input reproduction code"
 type: software
-version: "11.10.0-rc7"
+version: "1.5.5"
+date-released: 2026-11-03
 authors:
   - family-names: Hao
     given-names: Jiaozhen
   - family-names: Li
     given-names: Minghui
 license: MIT
+repository-code: "https://github.com/leekaka1126/crc-nkt-th1-spatial-immune-niche"
+url: "https://doi.org/10.5281/zenodo.23680882"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23680882
+    description: "Concept DOI; resolves to the latest archived version of this repository. The version-specific DOI is printed on each Zenodo record."
+keywords:
+  - spatial transcriptomics
+  - colorectal cancer
+  - support diagnostics
+  - reproducibility
